@@ -1,8 +1,12 @@
 Git Help
 ==========
 
-Great source: https://git-scm.com/book/en/v2
+## Setting up the terminal
+Source: https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923
+- Download 3 files: git-completion.bash, git-prompt.sh and bash_profile_course (availabe in this repo)
+- If you already have a file in your home directory named .bash_profile, copy the content from bash_profile_course and paste it at the bottom of .bash_profile. Otherwise, move bash_profile_course to your home directory and rename it to .bash_profile. 
 
+Great source: https://git-scm.com/book/en/v2
 
 ## Git global setup
 
