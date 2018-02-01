@@ -177,3 +177,5 @@ git log -n1
 ## Save login/password
 git config credential.helper store
 
+## Resolve SSL Certificate problem: unable to get local issuer 
+git config --global http.sslVerify false
