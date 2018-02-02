@@ -151,10 +151,10 @@ git log --graph --online master branch
 git commit -b new_branch_name
 
 ## merging branches
-git checkout master
-git merge master branch_name
-OR SIMPLY
-git merge branch_name (since master is checked out)
+git checkout master  
+git merge master branch_name  
+OR SIMPLY  
+git merge branch_name (since master is checked out)  
 
 ## diff without knowing what the parent was after a merge
 git show commit_id
