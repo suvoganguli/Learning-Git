@@ -190,6 +190,6 @@ git remote rm temp
 git remote rename oldname newname
 
 ## Deleting remote and local branch
-$ git push -d <remote_name> <branch_name>  ... remote  
-$ git branch -d <branch_name>  ... local  
+$ git push --delete <remote_name> <branch_name>  ... remote  
+$ git branch -d <branch_name>  ... local  (note, you may need to use --delete of force with -D)
 
