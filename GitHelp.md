@@ -188,3 +188,8 @@ git remote rm temp
 
 ## Renaming remote
 git remote rename oldname newname
+
+## Deleting remote and local branch
+$ git push -d <remote_name> <branch_name>  ... remote  
+$ git branch -d <branch_name>  ... local  
+
