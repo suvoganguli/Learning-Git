@@ -179,3 +179,12 @@ git config credential.helper store
 
 ## Resolve SSL Certificate problem: unable to get local issuer 
 git config --global http.sslVerify false
+
+## Removing remote
+git remote -v  
+> origin ...  
+> temp ...  
+git remote rm temp  
+
+## Renaming remote
+git remote rename oldname newname
