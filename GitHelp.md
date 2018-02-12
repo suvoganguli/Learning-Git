@@ -205,4 +205,15 @@ git merge master branch_name
 git push --delete <remote_name> <branch_name>  
 git branch -d <branch_name>  
 
+## Git prompt
+
+Download the files:
+git-prompt.sh
+git-completion.bash
+bash_profile_course
+
+Add the following to .bashrc:
+if [ -f ~/.bash_gitprompt ]; then
+    . ~/.bash_gitprompt
+fi
 
