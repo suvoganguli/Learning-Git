@@ -211,6 +211,7 @@ Download the files:
 git-prompt.sh
 git-completion.bash
 bash_profile_course
+.bash_prompt  
 
 Add the following to .bashrc:
 if [ -f ~/.bash_gitprompt ]; then
