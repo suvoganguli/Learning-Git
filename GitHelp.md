@@ -193,3 +193,9 @@ git remote rename oldname newname
 $ git push --delete <remote_name> <branch_name>  ... remote  
 $ git branch -d <branch_name>  ... local  (note, you may need to use --delete of force with -D)
 
+# Cloning all branch
+git clone https://github.com/suvoganguli/GIG-MPC.git  
+git branch -a
+git checkout -b expts origin/expts  
+git branch  
+
