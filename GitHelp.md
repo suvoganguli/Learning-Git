@@ -12,7 +12,7 @@ Source: https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/
 - If you already have a file in your home directory named .bash_profile, copy the content from bash_profile_course and paste it at the bottom of .bash_profile. Otherwise, move bash_profile_course to your home directory and rename it to .bash_profile. 
        
 OR  
--  Add the following (from bash_profile_course) to .bashrc:
+-  Add the following (from bash_profile_course) to .bashrc:  
 if [ -f ~/.bash_gitprompt ]; then    
     . ~/.bash_gitprompt    
 fi    
