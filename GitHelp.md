@@ -220,7 +220,7 @@ git branch -d <branch_name>
 To revert to a previous commit, ignoring any changes:  
 git reset --hard HEAD  
 where HEAD is the last commit in your current branch  
---------------------------------------------------------
+_________________________________________________________  
 ## Reverting The Working Copy to an Older Commit (THIS NEEDS TO BE TESTED)
 To revert to a commit that's older than the most recent commit:
 
@@ -232,6 +232,9 @@ git reset --soft HEAD@{1}
 
 git commit -m "Revert to 56e05fced"
 
-### Updates working copy to reflect the new commit  
-git reset --hard
---------------------------------------------------------
+### Updates working copy to reflect the new commit 
+git reset --hard HEAD 
+_________________________________________________________  
+
+
+
