@@ -5,21 +5,17 @@ Git Help
 
 Source: https://classroom.udacity.com/courses/ud775/lessons/2980038599/concepts/33417185870923
 - Download 4 files: (also available in this repo)
-git-prompt.sh 
-git-completion.bash 
-bash_profile_course 
-.bash_prompt
+> git-prompt.sh   
+> git-completion.bash   
+> bash_profile_course   
+> .bash_prompt  
 - If you already have a file in your home directory named .bash_profile, copy the content from bash_profile_course and paste it at the bottom of .bash_profile. Otherwise, move bash_profile_course to your home directory and rename it to .bash_profile. 
-       OR  
+       
+OR  
 -  Add the following (from bash_profile_course) to .bashrc:
-if [ -f ~/.bash_gitprompt ]; then 
-    . ~/.bash_gitprompt 
-fi 
-
-Download the files: 
-
-Add the following to .bashrc: if [ -f ~/.bash_gitprompt ]; then . ~/.bash_gitprompt fi
-
+if [ -f ~/.bash_gitprompt ]; then    
+    . ~/.bash_gitprompt    
+fi    
 
 Great source: https://git-scm.com/book/en/v2
 
