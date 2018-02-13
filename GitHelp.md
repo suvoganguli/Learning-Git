@@ -20,8 +20,8 @@ Great source: https://git-scm.com/book/en/v2
 
 ## Git global setup
 
-git config --global user.name "Ganguli,Suvo"
-git config --global user.email "subhabrata.ganguli@honeywell.com"
+git config --global user.name "Ganguli,Suvo"  
+git config --global user.email "subhabrata.ganguli@honeywell.com"  
 
 ### Create a new repository
 
