@@ -239,9 +239,9 @@ _________________________________________________________
 ## Discard unchaged changes in Git
 
 To unstage one file :  
-$ git checkout <path-to-file>  
+$ git checkout _path-to-file_
 
-Remember to replace <path-to-file> with the actual file name.  
+Remember to replace _path-to-file_ with the actual file name.  
 
 To unstage all files:  
 $ git checkout -- .  
