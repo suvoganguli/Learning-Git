@@ -236,5 +236,13 @@ git commit -m "Revert to 56e05fced"
 git reset --hard HEAD 
 _________________________________________________________  
 
+## Discard unchaged changes in Git
 
+To unstage one file :  
+$ git checkout <path-to-file>  
+
+Remember to replace <path-to-file> with the actual file name.  
+
+To unstage all files:  
+$ git checkout -- .  
 
