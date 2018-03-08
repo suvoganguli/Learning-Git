@@ -236,6 +236,10 @@ git commit -m "Revert to 56e05fced"
 git reset --hard HEAD 
 _________________________________________________________  
 
+## Merge Abort
+
+git merge --abort  
+
 ## Discard unchaged changes in Git
 
 To unstage one file :  
