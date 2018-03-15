@@ -25,50 +25,50 @@ git config --global user.email "subhabrata.ganguli@honeywell.com"
 
 ### Create a new repository
 
-git clone https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/Suvo-UGV-TrajGen.git
-cd Suvo-UGV-TrajGen
+git clone https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/Suvo-UGV-TrajGen.git  
+cd Suvo-UGV-TrajGen  
 
-touch README.md
-git add README.md
-git commit -m "add README"
-OR
-git commit - it opens a text editor
-git push -u origin master
+touch README.md  
+git add README.md  
+git commit -m "add README"  
+OR  
+git commit - it opens a text editor  
+git push -u origin master  
 
 ### Existing folder
 
-cd existing_folder
-git init
-git remote add origin https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/UGV-TrajGen.git
-git add .
-git commit -m "Initial commit"
-git push -u origin master
+cd existing_folder  
+git init  
+git remote add origin https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/UGV-TrajGen.git  
+git add .  
+git commit -m "Initial commit"  
+git push -u origin master  
 
 ### Existing Git repository
 
-cd existing_repo
-git remote rename origin old-origin
-git remote add origin https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/UGV-TrajGen.git
-git push -u origin --all
-git push -u origin --tags
+cd existing_repo  
+git remote rename origin old-origin  
+git remote add origin https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/UGV-TrajGen.git  
+git push -u origin --all  
+git push -u origin --tags  
 
 ### Deleting files in repo and not in local folder
 
-git rm --cached filename
-git commit -m "Deleting repo file"
-git push -u origin master
+git rm --cached filename  
+git commit -m "Deleting repo file"  
+git push -u origin master  
 
 ### Deleting committed files
-git commit -m "Something terribly misguided"
-git reset HEAD~
-<< edit files as necessary >>
-git add ...
-git commit -c ORIG_HEAD
+git commit -m "Something terribly misguided"  
+git reset HEAD~  
+<< edit files as necessary >>  
+git add ...  
+git commit -c ORIG_HEAD  
 
-## Removing commit message
-git reset --soft HEAD~1
-    OR
-git commit --amend 
+## Removing commit message  
+git reset --soft HEAD~1  
+    OR  
+git commit --amend   
 
 ------------------------------------------
 Ref: https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git
