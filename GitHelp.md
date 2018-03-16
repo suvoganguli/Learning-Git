@@ -65,6 +65,16 @@ git reset HEAD~
 git add ...  
 git commit -c ORIG_HEAD  
 
+OR  
+
+- Change your current branch to point to the older commit instead. You could do that with git reset --hard f414f31. However, this is rewriting the history of your branch, so you should avoid it if you've shared this branch with anyone. Also, the commits you did after f414f31 will no longer be in the history of your master branch.
+
+- Create a new commit that represents exactly the same state of the project as f414f31, but just adds that on to the history, so you don't lose any history. You can do that using the steps suggested in this answer - something like:
+
+git reset --hard f414f31  
+git reset --soft HEAD@{1}  
+git commit -m "Reverting to the state of the project at f414f31"  
+
 ## Removing commit message  
 git reset --soft HEAD~1  
     OR  
