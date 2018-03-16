@@ -71,6 +71,8 @@ OR
 
 - Create a new commit that represents exactly the same state of the project as f414f31, but just adds that on to the history, so you don't lose any history. You can do that using the steps suggested in this answer - something like:
 
+_Use the following_
+
 git reset --hard f414f31  
 git reset --soft HEAD@{1}  
 git commit -m "Reverting to the state of the project at f414f31"  
