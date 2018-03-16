@@ -262,3 +262,24 @@ Remember to replace _path-to-file_ with the actual file name.
 To unstage all files:  
 $ git checkout -- .  
 
+_________________________________________________________  
+
+## Difference Between Commits
+
+cherry-picking can give you the delta of a single commit rebased on top of another. That is:
+
+$ git checkout 012345  
+$ git cherry-pick -n abcdef  
+$ git diff --cached  
+
+This takes commit 'abcdef', compares it to its immediate ancestor, then applies that difference on top of '012345'. This new difference is then shown - the only change is the context comes from '012345' rather than 'abcdef's immediate ancestor. Of course, you may get conflicts and etc, so it's not a very useful process in most cases.  
+
+If you're just interested in abcdef itself, you can do:  
+
+$ git log -u -1 abcdef  
+This compares abcdef to its immediate ancestor, alone, and is usually what you want.
+
+And of course
+
+$ git diff 012345..abcdef  
+gives you all differences between those two commits.  
