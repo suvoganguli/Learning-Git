@@ -52,10 +52,13 @@ git remote add origin https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/UGV-Tr
 git push -u origin --all  
 git push -u origin --tags  
 
-### Discarding changes in a commit (say previous commit)
-
+### Discarding changes in a commit (say previous commit)  
 See: https://support.beanstalkapp.com/article/1004-how-do-i-undo-things-in-git#5    
-git revert <commit_ID> 
+git revert <commit_ID>    (needs further testing)
+
+### Discarding changes to a single file in a previous commmit
+git checkout filename  
+See: https://www.norbauer.com/rails-consulting/notes/git-revert-reset-a-single-file  
 
 ### Deleting files in repo and not in local folder
 
