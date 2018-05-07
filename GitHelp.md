@@ -54,7 +54,7 @@ git push -u origin --tags
 
 ### Discarding changes in a commit (say previous commit)
 
-See: https://support.beanstalkapp.com/article/1004-how-do-i-undo-things-in-git#5 
+See: https://support.beanstalkapp.com/article/1004-how-do-i-undo-things-in-git#5    
 git revert <commit_ID> 
 
 ### Deleting files in repo and not in local folder
