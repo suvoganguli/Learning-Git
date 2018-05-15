@@ -52,6 +52,10 @@ git remote add origin https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/UGV-Tr
 git push -u origin --all  
 git push -u origin --tags  
 
+### Discarding changes in the folder before committing
+git checkout .  
+git checkout -- .
+
 ### Discarding changes in a commit (say previous commit)  
 See: https://support.beanstalkapp.com/article/1004-how-do-i-undo-things-in-git#5    
 git revert <commit_ID>    (needs further testing)
