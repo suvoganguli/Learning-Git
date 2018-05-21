@@ -52,6 +52,13 @@ git remote add origin https://mn10pdvm40.htc.honeywell.com/gitlab/E183308/UGV-Tr
 git push -u origin --all  
 git push -u origin --tags  
 
+### Discard changes after running a previous (or any) commit
+For all unstaged files use:  
+>  git checkout -- .  
+
+For a specific file use:  
+> git checkout path/to/file/to/revert  
+
 ### Discarding changes in the folder before committing
 git checkout .  
 git checkout -- .
