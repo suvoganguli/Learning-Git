@@ -57,7 +57,11 @@ For all unstaged files use:
 >  git checkout -- .  
 
 For a specific file use:  
-> git checkout path/to/file/to/revert  
+> git checkout path/to/file/to/revert 
+
+### Going back to a previous commit
+> git checkout 44a09617 .
+Note: After this master * becomes master+ (staged), so need to run `git commit -t "msg"`
 
 ### Discarding changes in the folder before committing
 git checkout .  
