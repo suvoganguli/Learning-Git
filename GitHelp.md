@@ -161,6 +161,7 @@ Nope, there's still a way to get it back. Type git reflog and you'll see a list 
 git checkout -b someNewBranchName shaYouDestroyed
 
 You've now resurrected that commit. Commits don't actually get destroyed in Git for some 90 days, so you can usually go back and rescue one you didn't mean to get rid of.
+
 -------------------------------------------------------------
 
 ## Recovering a destroyed commit
