@@ -184,6 +184,9 @@ git diff --staged
 ## diff between two commits
 git diff commit_id1 commit_id2
 
+## diff between two commits - name only and relative to current head  
+git diff --name-only HEAD~0 HEAD~1   
+
 ## discard changes between working directory and status area
 git reset --hard
 
