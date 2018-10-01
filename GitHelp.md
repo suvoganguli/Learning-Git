@@ -327,4 +327,8 @@ git remote -v  (Verifies the new remote URL)
 git push origin master (Pushes the changes in your local repository up to the remote repository you specified as the origin)  
 
 
+### Git Undo Possiiblities  
+
+https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
+
 
