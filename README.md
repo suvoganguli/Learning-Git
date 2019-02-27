@@ -1,6 +1,6 @@
 ### README.md
 
-Add content:
+This repo contains a list of typical git commands. The main file of interest in GitHelp.md.
 
-1) Content 1
+In addition, this repo also contains bash files which are useful to set up a git environment for linux.
 
