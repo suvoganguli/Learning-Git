@@ -332,3 +332,13 @@ git push origin master (Pushes the changes in your local repository up to the re
 https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
 
 
+### virtualenv
+
+cd project_folder
+virtualenv venv
+source venv/bin/activate
+deactivate
+lsvirtualenv - List all of the environments
+cdvirtualenv - Navigate into the directory of the currently activated virtual environment, so you can browse its site-packages, for example:
+cdsitepackages - Like the above, but directly into site-packages directory
+lssitepackages - Shows contents of site-packages directory.
